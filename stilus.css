@@ -41,6 +41,14 @@ body {
   .valaszok p:hover {
     background-color: #dcdcdc;
   }
+/*   .helyes {
+    background-color: lightgreen;
+  }
+  
+  .helytelen {
+    background-color: lightcoral;
+  } */
+  
   
   @media (max-width: 600px) {
     .valaszok {
