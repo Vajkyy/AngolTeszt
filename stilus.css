@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 1px;
+  }
+  
+  article {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .kerdes {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .valaszok {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .valaszok p {
+    margin: 0;
+    padding: 0.8rem;
+    background-color: #eaeaea;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .valaszok p:hover {
+    background-color: #dcdcdc;
+  }
+  
+  @media (max-width: 600px) {
+    .valaszok {
+      grid-template-columns: 1fr;
+    }
+  }
+  
